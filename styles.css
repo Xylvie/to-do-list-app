@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    background: linear-gradient(160deg, rgb(52, 52, 122), rgb(4, 127, 199));
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    font-family: monospace;
+}
+
+.to-do-list {
+    background-color: antiquewhite;
+    width: 100%;
+    max-width: 540px;
+    margin: 60px auto 20px;
+    border-radius: 10px;
+}
+
+.to-do-list h1 {
+    font-size: 2.5em;
+    text-align: start;
+    padding: 1.5rem 2.5rem;
+}
+
+.to-do-list .input-field {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    margin: 0px 2.5rem 0.5rem;
+    border-radius: 20px;
+}
+
+.to-do-list .input-field input {
+    border: none;
+    background: transparent;
+    outline: none;
+    padding: 0.5rem 1rem;
+    font-size: 1em;
+    font-weight: bold;
+    width: 100%;
+}
+
+.to-do-list .input-field button {
+    background-color: aquamarine;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.to-do-list .input-field button:hover {
+    background-color: aqua;
+    color: white;
+}
+
+#list-container {
+    list-style: none;
+    padding: 0.5rem 2.5rem;
+}
+
+#list-container li {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 10px;
+    background-color: white;
+    border-radius: 20px;
+    padding: 0.5rem 1.5rem;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+li span {
+    cursor: pointer;
+    align-items: center;
+    display: flex;
+
+}
+
+li span:hover {
+    color: red;
+}
